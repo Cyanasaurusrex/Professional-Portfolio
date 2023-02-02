@@ -23,25 +23,69 @@ body {
 
 
 
- .row {
+.content {
+    min-width: 100%;
+
+}
+
+
+
+.row {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    width: 100%;
 }
 
-.card-column {
-    max-width: 50%;
-    flex-basis: 50%;
-    flex-grow: 0%;
 
-}
 .title-card {
     margin: 20px;
     border: dashed black;
     padding: 20px;
+    float: left;
+    flex-wrap: none;
+    flex-basis: 30%;
+}
+
+.title-card h2 {
     float: right;
 }
 
 .card {
     margin: 20px;
+    flex-basis: 70%;
+}
+
+footer {
+    text-align: center;
+}
+
+.work {
+    width: 70%;
+    
+}
+
+.top_img {
+    height: 300px;
+    width: 100%;
+    background-image: url("../images/ocean-waves.jpg");
+    background-size: cover;
+    background-position: center;
+    border: solid cyan 5px;
+}
+
+.bottom_left_img {
+    height: 200px;
+    width: 50%;
+    background-image: url("../images/Mt-everest.jpg");
+    background-size: cover;
+    background-position: center;
+    border: solid cyan 5px;
+}
+
+.bottom_right_img {
+    height: 200px;
+    width: 50%;
+    background-image: url("../images/tropical-sunset.jpg");
+    background-size: cover;
+    background-position: center;
+    border: solid cyan 5px;
 }
