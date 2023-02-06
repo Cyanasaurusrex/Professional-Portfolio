@@ -10,14 +10,18 @@
 </head>
     
 <body>
-    
     <header>
-    <h1 class="page-title">
-        Nathan Moon
-    </h1>
-    <p>
-blah
-    </p>
+        <div class="header">
+            <h1>
+                Nathan Moon
+            </h1>
+            <ul>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#Work">work</a></li>
+                <li><a href="#Contact-Me">Contact Me</a></li>
+                <li><a href="#Resume">Resume</a></li>
+            </ul>        
+        </div>
     </header>
 
     <main>
@@ -27,7 +31,7 @@ blah
     <section class="content">
         
         <div class="row">
-            <div class="title-card">
+            <div class="title-card" id="about-me">
                 <h2 class="card-header">About Me</h2>            
             </div>
             <div class="card">
@@ -37,22 +41,24 @@ blah
 
         
         <div class="row">
-            <div class="title-card">
+            <div class="title-card" id="Work">
                 <h2 class="card-header">Work</h2>
             </div>
             <div class="work card">
-                <div class="top_img" alt="ocean waves"></div>
-                <div class="bottom_left_img" alt="mountain"></div>
-                <div class="bottom_right_img" alt="tropical sunset"></div>         
+                <div class="top_img hovering" alt="ocean waves">
+                    <h3>Ocean</h3>
+                </div>
+                <div class="bottom_left_img hovering" alt="mountain">
+                    <h3>Mountain</h3>
+                </div>
+                <div class="bottom_right_img hovering" alt="tropical sunset">
+                    <h3>Sunset</h3>
+                </div>         
             </div>
-
         </div>
 
-
-
-
         <div class="row">
-            <div class="title-card">
+            <div class="title-card" id="contact-me">
                 <h2 class="card-header">Contact Me</h2>
             </div>
             <h2 class="card-header">Here are some links</h2>
@@ -60,12 +66,11 @@ blah
 
 
         <div class="row">
-            <div class="title-card">
+            <div class="title-card" id="Resume">
                 <h2 class="card-header">Resume</h2>
             </div>
             <h2 class="card-header">Here is my resume blah blah blah</h2>
         </div>
-
 
     </section>
     </main>
