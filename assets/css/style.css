@@ -7,7 +7,62 @@ body {
     background-color: var(--dark);
 }
 
-.skyline {
+.row {
+    background-color: darkslategray;
+    margin: 10px;
+    display:flex;
+    flex-direction: row;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+
+
+}
+
+.rowTitle {
+    flex: 0 0 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rowContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.topImg {
+    position: relative;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.bottomImg {
+    position: relative;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    padding: 5px;
+    margin: 3px;
+}
+
+.item {
+    padding: 3px;
+    margin-left: 5px;
+}
+
+/* .skyline {
     height: 750px;
     width: 100%;
     margin-bottom: 25px;
@@ -114,4 +169,4 @@ h3 {
     top: 60%;
     background-color: cyan;
     width: fit-content;    
-}
+} */
